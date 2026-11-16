@@ -28,7 +28,7 @@ Does the number of hours students spend studying affect their final exam scores?
 - `data/interim/` – Intermediate data files.
 - `data/processed/` – Processed student data.
 - `reports/` – Pipeline output reports.
-- `tests/` – Synthetic pipeline tests.
+- `test_pipeline.py` – Synthetic pipeline tests.
 - `run_pipeline.py` – Main reproducible analysis pipeline.
 - `analysis-preregistration.md` – Research question and analysis plan.
 - `requirements.txt` – Project dependencies.
@@ -58,7 +58,7 @@ The pipeline will:
 
 Run:
 
-    py tests\test_pipeline.py
+    py test_pipeline.py
 
 Expected output:
 
