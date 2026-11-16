@@ -1,0 +1,3 @@
+Synthetic pipeline test completed successfully.
+Number of records: 10
+Correlation: 0.9991
